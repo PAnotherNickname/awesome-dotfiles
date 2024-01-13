@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="weather-icon-fog"
+   class="weather-icon weather-icon-white fog"
+   viewBox="0 0 64 64"
+   version="1.1"
+   sodipodi:docname="mist.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs313" />
+  <sodipodi:namedview
+     id="namedview311"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="11.609375"
+     inkscape:cx="19.897712"
+     inkscape:cy="32.086137"
+     inkscape:window-width="1918"
+     inkscape:window-height="1054"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="weather-icon-fog" />
+  <style
+     type="text/css"
+     id="style303">.st0{fill:#FFFFFF;}</style>
+  <g
+     id="fog"
+     transform="matrix(1.0656689,0,0,1.0656689,-3.0456961,-14.612166)">
+    <path
+       class="st0"
+       d="m 41.7,38.5 c -3.2,0 -6.1,-0.9 -8.7,-2.7 -7.2,-5.1 -13.2,-5.3 -19.6,-0.9 -0.5,0.3 -1.1,0.2 -1.4,-0.3 -0.3,-0.5 -0.2,-1.1 0.3,-1.4 7.1,-4.9 14.1,-4.6 21.9,0.9 6.2,4.4 13.3,1.9 18.2,-1 0.5,-0.3 1.1,-0.1 1.4,0.4 0.3,0.5 0.1,1.1 -0.4,1.4 -4,2.4 -8,3.6 -11.7,3.6 z"
+       id="path305" />
+    <path
+       class="st0"
+       d="M 41.7,46.3 C 38.5,46.3 35.6,45.4 33,43.6 25.8,38.5 19.8,38.3 13.4,42.7 12.9,43 12.3,42.9 12,42.4 11.7,41.9 11.8,41.3 12.3,41 c 7.1,-4.9 14.1,-4.6 21.9,0.9 6.2,4.3 13.3,1.9 18.2,-1 0.5,-0.3 1.1,-0.1 1.4,0.4 0.3,0.5 0.1,1.1 -0.4,1.4 -4,2.4 -8,3.6 -11.7,3.6 z m 0,-15.5 C 38.5,30.8 35.6,29.9 33,28.1 25.8,23 19.8,22.8 13.4,27.2 c -0.5,0.3 -1.1,0.2 -1.4,-0.3 -0.3,-0.5 -0.2,-1.1 0.3,-1.4 7.1,-4.9 14.1,-4.6 21.9,0.9 6.2,4.4 13.3,1.9 18.2,-1 0.5,-0.3 1.1,-0.1 1.4,0.4 0.3,0.5 0.1,1.1 -0.4,1.4 -4,2.4 -8,3.6 -11.7,3.6 z"
+       id="path307" />
+  </g>
+</svg>
