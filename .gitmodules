@@ -1,0 +1,24 @@
+[submodule "addons/awesome-freedesktop"]
+	path = addons/awesome-freedesktop
+	url = https://github.com/lcpz/awesome-freedesktop
+[submodule "addons/awesome-wm-widgets"]
+	path = addons/awesome-wm-widgets
+	url = https://github.com/streetturtle/awesome-wm-widgets.git
+[submodule "addons/cyclefocus"]
+	path = addons/cyclefocus
+	url = https://github.com/blueyed/awesome-cyclefocus.git
+[submodule "addons/layout-machi"]
+	path = addons/layout-machi
+	url = https://github.com/xinhaoyuan/layout-machi.git
+[submodule "addons/obvious"]
+	path = addons/obvious
+	url = https://github.com/hoelzro/obvious.git
+[submodule "addons/revelation"]
+	path = addons/revelation
+	url = https://github.com/guotsuan/awesome-revelation.git
+[submodule "addons/tyrannical"]
+	path = addons/tyrannical
+	url = https://github.com/Elv13/tyrannical.git
+[submodule "addons/vicious"]
+	path = addons/vicious
+	url = https://github.com/vicious-widgets/vicious.git
