@@ -22,3 +22,6 @@
 [submodule "addons/vicious"]
 	path = addons/vicious
 	url = https://github.com/vicious-widgets/vicious.git
+[submodule "addons/awesome-switcher"]
+	path = addons/awesome-switcher
+	url = https://github.com/troglobit/awesome-switcher.git
