@@ -2,7 +2,8 @@ local awful = require("awful")
 local beautiful = require("beautiful")
 local menubar = require("menubar")
 local debian = require("main.menu")
-local has_fdo, freedesktop = pcall(require, "addons.awesome-freedesktop")
+--local has_fdo = pcall(require, "addons.awesome-freedesktop")
+local freedesktop = require("addons.awesome-freedesktop.menu")
 local hotkeys_popup = require("awful.hotkeys_popup")
 --[[
 freedesktop.desktop.add_icons(args)
@@ -43,11 +44,12 @@ myawesomemenu = {
 local menu_awesome = { "awesome", myawesomemenu, beautiful.awesome_icon }
 local menu_terminal = { "open terminal", terminal }
 
-if has_fdo then
-    mymainmenu = freedesktop.menu.build({
+--if has_fdo then
+    mymainmenu = freedesktop.build({
         before = { menu_awesome },
         after =  { menu_terminal }
     })
+    --[[
 else
     mymainmenu = awful.menu({
         items = {
@@ -57,7 +59,7 @@ else
                 }
     })
 end
-
+--]]
 
 mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
                                      menu = mymainmenu })

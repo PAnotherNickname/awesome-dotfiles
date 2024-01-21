@@ -6,6 +6,8 @@ local notify_popup=require("gui.popup")
 local menubar = require("menubar")
 local naughty = require("naughty")
 local wallpaper = require("gui.wallpaper")
+local switcher = require("addons.awesome-switcher")
+require("main.switcher-config")
 revelation.init()
 local k_pressed = false
 
@@ -45,6 +47,17 @@ globalkeys = gears.table.join(
 
         awful.key({ modkey, "Control"}, 'w', function() wallpaper.set_wallpaper(screen) end,
     { description = "Toggle title bar"}),
+
+
+        awful.key({ "Mod1",           }, "Tab",
+      function ()
+          switcher.switch( 1, "Mod1", "Alt_L", "Shift", "Tab")
+      end),
+
+    awful.key({ "Mod1", "Shift"   }, "Tab",
+      function ()
+          switcher.switch(-1, "Mod1", "Alt_L", "Shift", "Tab")
+      end),
 
 
 
